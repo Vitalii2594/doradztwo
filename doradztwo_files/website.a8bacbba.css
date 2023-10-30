@@ -12852,6 +12852,8 @@ body {
 .section-portfolio {
   padding-bottom: 48px;
   margin: 0 auto;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .portfolio {
@@ -12868,6 +12870,7 @@ body {
 }
 .section-title {
   margin-bottom: 60px;
+  font-size: 43px;
 
   display: flex;
   flex-wrap: wrap;
@@ -12875,13 +12878,13 @@ body {
 }
 .portfolio-menu-item {
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 16px;
   padding-left: 16px;
-  background-color: #ffffff;
-  
-  border-top-style: none;
+  padding-right: 13px;
 }
-
+.pogrubienie {
+  font-weight: bold;
+}
 .portfolio-menu-item-title {
   font-weight: 900;
   font-size: 16px;
@@ -12891,21 +12894,14 @@ body {
   margin-bottom: 8px;
 }
 
-.menu-portfolio-item:last-child {
-  padding-right: 0px;
-}
-
-.portfolio-item:not(:last-child) {
-  margin-bottom: 48px;
-}
-
 .portfolio-item {
   margin-right: 30px;
   margin-left: 30px;
   margin-bottom: 30px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  margin-top: 30px;
+  box-shadow: 0px 3px 6px rgba(28, 37, 36, 0.12);
   max-width: 360px;
-  max-height: 500px;
+  max-height: 540px;
 }
 
 .portfolio-link {
@@ -12916,10 +12912,9 @@ body {
   transition-timing-function: var(--tra-tim-fun);
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
+.portfolio-item:hover,
+.portfolio-item:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transform: scale(1.1);
- 
 }
