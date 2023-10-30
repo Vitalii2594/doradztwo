@@ -8132,6 +8132,7 @@ fieldset:disabled .btn {
   }
   .mt-md-4 {
     margin-top: 1.5rem !important;
+    font-size: 20px;
   }
   .mt-md-5 {
     margin-top: 3rem !important;
@@ -12886,7 +12887,7 @@ body {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--dark);
+  color: #002e55;
   margin-bottom: 8px;
 }
 
