@@ -583,7 +583,7 @@ progress {
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 1140px;
+    max-width: 1224px;
   }
 }
 @media (min-width: 1400px) {
@@ -11740,7 +11740,7 @@ body {
   padding-right: 0;
 }
 .dk-primary-nav a {
-  font-size: 0.875em;
+  font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
 }
