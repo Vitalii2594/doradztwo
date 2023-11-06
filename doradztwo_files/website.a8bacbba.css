@@ -12704,7 +12704,7 @@ ul.dk-search-results-items li {
     font-size: 2rem;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   .dk-job-position-proposal p {
     font-size: 2.5rem;
   }
@@ -12779,7 +12779,7 @@ ol {
   padding-top: 96px;
   padding-bottom: 96px;
   margin: 0 auto;
-  width: 100%;
+  width: 1440;
   justify-content: center;
 }
 
