@@ -583,7 +583,7 @@ progress {
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 1140px;
+    max-width: 1224px;
   }
 }
 @media (min-width: 1400px) {
@@ -11740,7 +11740,7 @@ body {
   padding-right: 0;
 }
 .dk-primary-nav a {
-  font-size: 0.875em;
+  font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -12704,7 +12704,7 @@ ul.dk-search-results-items li {
     font-size: 2rem;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   .dk-job-position-proposal p {
     font-size: 2.5rem;
   }
@@ -12779,7 +12779,7 @@ ol {
   padding-top: 96px;
   padding-bottom: 96px;
   margin: 0 auto;
-  width: 1440px;
+  width: 1440;
   justify-content: center;
 }
 
@@ -12895,8 +12895,8 @@ body {
 }
 
 .portfolio-item {
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
   margin-bottom: 30px;
   margin-top: 30px;
   box-shadow: 0px 3px 6px rgba(28, 37, 36, 0.12);
